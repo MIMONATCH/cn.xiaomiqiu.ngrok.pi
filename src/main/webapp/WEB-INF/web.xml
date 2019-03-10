@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <!-- 异步test -->
+<servlet>
+	<servlet-name>MyclassAsync</servlet-name>
+	<servlet-class>webproject.MyclassAsync</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>MyclassAsync</servlet-name>
+	<url-pattern>/MyclassAsync</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>GetWord</servlet-name>
+	<servlet-class>webproject.GetWord</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>GetWord</servlet-name>
+	<url-pattern>/GetWord</url-pattern>
+</servlet-mapping>
+<!-- 同步 test-->
+<servlet>
+	<servlet-name>MyclassSync</servlet-name>
+	<servlet-class>webproject.MyclassSync</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>MyclassSync</servlet-name>
+	<url-pattern>/MyclassSync</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>Unloadcontrol</servlet-name>
+	<servlet-class>webproject.Unloadcontrol</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>Unloadcontrol</servlet-name>
+	<url-pattern>/Unloadcontrol</url-pattern>
+</servlet-mapping>
+</web-app>
