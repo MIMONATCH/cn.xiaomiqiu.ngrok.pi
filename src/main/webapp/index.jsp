@@ -3,7 +3,6 @@
 <html>
 <body>
 <h2>Hello World!</h2>
-<h3>this is test the git and jenkins</h3>
 <p>by MiMonarchRD</p>
 </body>
 </html>
