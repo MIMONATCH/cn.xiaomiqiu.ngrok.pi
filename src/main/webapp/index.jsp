@@ -47,7 +47,7 @@
 		$("button").click(function(){
 			var btnid = $(this).attr("id")
 			if(btnid == "btn1"){
-				$("#myiframeID").attr("src","/webproject/iframejsp/a.jsp")
+				$("#myiframeID").attr("src","/iframejsp/a.jsp")
 				
 			}
 			if(btnid == "btn2"){
