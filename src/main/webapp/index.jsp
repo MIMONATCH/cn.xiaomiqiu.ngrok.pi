@@ -35,7 +35,7 @@
   		</ul>
   	</div>
   	<div class="col-md-9">
-  		<iframe id="myiframeID" height="400" width="600" frameborder="0" src="/webproject/iframejsp/a.jsp"></iframe>
+  		<iframe id="myiframeID" height="400" width="600" frameborder="0" src="iframejsp/a.jsp"></iframe>
     </div>
   </div>
   	<div class="row">
@@ -47,23 +47,23 @@
 		$("button").click(function(){
 			var btnid = $(this).attr("id")
 			if(btnid == "btn1"){
-				$("#myiframeID").attr("src","/iframejsp/a.jsp")
+				$("#myiframeID").attr("src","iframejsp/a.jsp")
 				
 			}
 			if(btnid == "btn2"){
-				$("#myiframeID").attr("src","/webproject/iframejsp/b.jsp")
+				$("#myiframeID").attr("src","iframejsp/b.jsp")
 				
 			}
 			if(btnid == "btn3"){
-				$("#myiframeID").attr("src","/webproject/iframejsp/c.jsp")
+				$("#myiframeID").attr("src","iframejsp/c.jsp")
 				
 			}
 			if(btnid == "btn4"){
-				$("#myiframeID").attr("src","/webproject/iframejsp/d.jsp")
+				$("#myiframeID").attr("src","iframejsp/d.jsp")
 				
 			}
 			if(btnid == "btn5"){
-				$("#myiframeID").attr("src","/webproject/iframejsp/e.jsp")
+				$("#myiframeID").attr("src","iframejsp/e.jsp")
 				
 			}
 		})
