@@ -3,13 +3,13 @@ package com.cqjtu.edu.db;
 import java.sql.*;
 
 public class Databaseconnect {
-	//设置数据库连接的DBurl,name,passwd
-	public static String DBUrl = "jdbc:mysql://localhost:3306/webproject";
+	//璁剧疆鏁版嵁搴撹繛鎺ョ殑DBurl,name,passwd
+	public static String DBUrl = "jdbc:mysql://localhost:3306/cn.xiaomiqiu.ngrok.pi";
 	public static String user = "root";
 	public static String passwd = "ufo8232293";
-	//mysql高版本的驱动
+	//mysql楂樼増鏈殑椹卞姩
 	public static String drivername = "com.mysql.cj.jdbc.Driver";
-	//mysql低版本的驱动名
+	//mysql浣庣増鏈殑椹卞姩鍚�
 	public static String driver = "org.gjt.mm.mysql.Driver";
 	
 	public static Connection getCon() {
@@ -17,9 +17,9 @@ public class Databaseconnect {
 		try {
 			Class.forName(driver);
 			con = DriverManager.getConnection(DBUrl, user, passwd);
-			System.out.println("数据库连接成功");
+			System.out.println("鏁版嵁搴撹繛鎺ユ垚鍔�");
 		}catch(Exception e) {
-			System.out.println("数据库连接失败");
+			System.out.println("鏁版嵁搴撹繛鎺ュけ璐�");
 		}
 		return con;
 	}
