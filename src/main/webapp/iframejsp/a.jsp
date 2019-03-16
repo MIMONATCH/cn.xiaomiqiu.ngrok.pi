@@ -37,7 +37,7 @@
 				dataType:"text",
 				success:function(e){
 					$("img").attr("src",e)
-					alert(e)
+					//alert(e)
 				}
 			})
 		})
