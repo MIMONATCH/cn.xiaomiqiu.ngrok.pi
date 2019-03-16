@@ -4,7 +4,7 @@ import java.sql.*;
 
 public class Databaseconnect {
 	//璁剧疆鏁版嵁搴撹繛鎺ョ殑DBurl,name,passwd
-	public static String DBUrl = "jdbc:mysql://localhost:3306/cn.xiaomiqiu.ngrok.pi";
+	public static String DBUrl = "jdbc:mysql://localhost:3306/webproject";
 	public static String user = "root";
 	public static String passwd = "ufo8232293";
 	//mysql楂樼増鏈殑椹卞姩
