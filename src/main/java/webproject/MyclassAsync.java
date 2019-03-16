@@ -46,6 +46,7 @@ public class MyclassAsync extends HttpServlet {
 		//int id = Integer.parseInt(req.getParameter("id"));
 		//通过servlet你可以拿项目的绝对路径
 		String filePath = req.getSession().getServletContext().getRealPath("/img/");
+		System.out.println(filePath);
 		// 2.分析网址的数据装在一个容器中 （服务）
 		List<String> datas = GetDataService.getDataFromUrl(urlPath);
 		// 3.将容器中的数据放入词云生成库中生成图片（服务）
